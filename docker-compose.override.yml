@@ -1,0 +1,11 @@
+services:
+  php:
+    environment:
+      APP_ENV: local
+      APP_DEBUG: "true"
+
+  nuxt:
+    environment:
+      NODE_ENV: development
+      CHOKIDAR_USEPOLLING: "true"
+      WATCHPACK_POLLING: "true"
